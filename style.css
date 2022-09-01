@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;800&family=Roboto+Condensed&display=swap');
+
+body{
+    background-color: #59CE8F;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.brand img{
+    height: 44px;
+    padding-right: 4px;
+    
+}
+
+nav{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav ul li{
+    padding: 0px 12px;
+}
+
+nav ul{
+    color: white;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+}
+
+.container{
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
+    min-height: 65vh;
+    margin: 23px auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 70%;
+    border-radius: 14px;
+    padding: 19px;
+    background-image: url(background.jpg);
+    
+}
+
+
+.bottom{
+    font-family: 'Nunito', sans-serif;
+    position: sticky;
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#myprogresssbar{
+    min-width: 80vw;
+    cursor: pointer;
+}
+
+.icons{
+    margin-top: 14px;
+  
+
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+.songitem{
+    text-align: left;
+    font-weight: bolder;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 12px 0px;
+    justify-content: space-between;
+}
+
+.songitem img{
+    padding-right: 10px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.timestamp{
+    margin: 0px 12px;
+}
+
+.songitem img, .miniplayer i{
+    cursor: pointer;
+}
+
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    font-weight: bolder;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.8 ease-in;
+}
+
+.songName{
+   
+}
